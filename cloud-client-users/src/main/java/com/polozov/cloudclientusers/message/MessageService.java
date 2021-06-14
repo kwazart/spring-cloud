@@ -1,4 +1,4 @@
-package com.polozov.cloudclientsample.service;
+package com.polozov.cloudclientusers.message;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class MessageService {
 
-	@Value("news-client")
+	@Value("users-client")
 	private String appName;
 
 	@Value("${message.example1}")
@@ -23,3 +23,4 @@ public class MessageService {
 		return "From " + appName + " -> " + messageExample2;
 	}
 }
+

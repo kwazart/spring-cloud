@@ -11,5 +11,7 @@ public class CloudApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(CloudApplication.class, args);
 	}
-	// заходим на http://localhost:8888/test-client.properties
+	// http://localhost:8888/test-client.properties
+	// http://localhost:8888/news-client.properties
+	// http://localhost:8888/users-client.properties
 }
